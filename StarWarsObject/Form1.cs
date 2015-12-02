@@ -40,8 +40,6 @@ namespace StarWarsObject
             float scaleY = (height / 200);
 
             Pen exPen = new Pen(Color.White,2);
-            //Rectangle base
-            g.DrawRectangle(exPen, x, y, width, height);
 
             //Middle lines
             g.DrawLine(exPen, (24 * scaleX + x), (0 * scaleY + y), (24 * scaleX + x), (173 * scaleY+ y));
